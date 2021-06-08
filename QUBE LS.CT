@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"LoadingCounter"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>QUBE.exe+2588264</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"XCoord"</Description>
+      <VariableType>Float</VariableType>
+      <Address>QUBE.exe+25883D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"YCoord"</Description>
+      <VariableType>Float</VariableType>
+      <Address>QUBE.exe+25883D4</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
