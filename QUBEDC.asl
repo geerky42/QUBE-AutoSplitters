@@ -36,7 +36,7 @@ split
     
     // Sector 3
     else if (vars.sector <= 3) {
-        current.sector3 = current.xCoord > 17300;
+        current.sector3 = current.xCoord > 17365;
         if (!old.sector3 && current.sector3) {
             vars.sector++;
             return true;
@@ -55,7 +55,7 @@ split
     // Sector 5
     else if (vars.sector <= 5) {
 
-        current.sector5 = current.xCoord < -5400;
+        current.sector5 = current.xCoord < -5500;
         if (!old.sector5 && current.sector5) {
             vars.sector++;
             return true;
@@ -64,7 +64,7 @@ split
     
     // Sector 6
     else if (vars.sector <= 6) {
-        current.sector6 = current.yCoord < -31960;
+        current.sector6 = current.yCoord < -31965;
         if (!old.sector6 && current.sector6) {
             vars.sector++;
             return true;
@@ -73,7 +73,7 @@ split
     
     // Sector 7
     else if (vars.sector <= 7) {
-        current.sector7 = current.xCoord > 28370;
+        current.sector7 = current.xCoord > 28350;
         if (!old.sector7 && current.sector7) {
             vars.sector++;
             return true;
