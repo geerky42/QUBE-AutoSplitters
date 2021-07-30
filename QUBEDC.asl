@@ -55,7 +55,7 @@ split
     // Sector 5
     else if (vars.sector <= 5) {
 
-        current.sector5 = current.xCoord < -5500;
+        current.sector5 = -5700 < current.xCoord && current.xCoord < -5500;
         if (!old.sector5 && current.sector5) {
             vars.sector++;
             return true;
